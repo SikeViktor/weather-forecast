@@ -1,0 +1,119 @@
+
+h4 {
+    margin-bottom: 2rem;
+}
+.container {
+    padding: 1rem; 
+}
+
+.searchForm {        
+    margin: 0 auto 1rem auto;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.card{
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    border-radius: 1.5rem;
+    border-color: rgba(238, 237, 237, 0.438);
+    box-shadow: 5px 8px 10px #80808033;
+    /*background-color: #AEBDCA;*/
+}
+@media(max-width:767px){
+    .card{        
+        padding: 1.5rem 1.5rem 1rem 1.5rem;
+    }
+}
+
+.temp{
+    font-size: 5rem;
+    color: rgb(57, 57, 58);
+    
+}
+@media(max-width:767px)
+{
+    .temp{
+        font-size: 3rem;
+    }
+}
+
+.location{
+    margin-bottom: 1.5rem;
+}
+@media(max-width:767px)
+{
+    .location{
+        font-size: 0.75rem;
+    }
+}
+.img-fluid{    
+    width: 50%;     
+    background-color: #AEE2FF;
+}
+.row2 .img-fluid{
+    margin: 10% 0;
+    opacity: 0.5;
+    width: 40%;
+}
+.card-2 .row{
+    justify-content: center;
+}
+
+.row1{
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;    
+}
+.row3{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: black;
+}
+@media(max-width:400px)
+{
+    .row3{
+        font-size: 0.7rem;
+        font-weight: bold;
+        color: black;
+    }
+}
+@media(max-width:320px)
+{
+    .row3{
+        font-size: 0.6rem;
+        font-weight: bold;
+        color: black;
+    }
+}
+.row4{
+    font-size: 0.6rem;
+    color: black;
+    margin: 5% 0 2.5rem;
+}
+.row{
+    overflow: visible;
+}
+
+.resultImage {
+    width: 10%; 
+}
+
+.resultLabel {     
+    padding: 0 5%;    
+}
+
+.resultValue {     
+    float: right;
+    padding-right: 2rem;   
+} 
+
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+}
+
+.carousel-indicators [data-bs-target] {
+    border-bottom: 0;
+}
